@@ -1,7 +1,5 @@
 package pl.impaq.controller;
 
-import pl.impaq.entity.Product;
-
 public class LcdDisplay {
 
     public void print(String message) {

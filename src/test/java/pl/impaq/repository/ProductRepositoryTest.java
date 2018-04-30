@@ -8,7 +8,7 @@ import pl.impaq.entity.Product;
 public class ProductRepositoryTest {
 
     @Test
-    public void addProductMethodShouldEnlargeProductRepositoryList(){
+    public void addProductMethodShouldEnlargeProductRepositoryList() {
         ProductRepository productRepository = new ProductRepository();
         int sizeBeforeAdd = productRepository.getProducts().size();
         productRepository.addProduct(Product.builder().build());
@@ -18,7 +18,7 @@ public class ProductRepositoryTest {
     }
 
     @Test
-    public void findProductMethodShouldReturnProductByCodeBarCode(){
+    public void findProductMethodShouldReturnProductByCodeBarCode() {
         ProductRepository productRepository = new ProductRepository();
         String code = "5900017304007";
         Barcode barcode = new Barcode(code);
