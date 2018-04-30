@@ -1,6 +1,6 @@
-#Point of sale
+# Point of sale
 
-###Project for IMPAQ Group
+### Project for IMPAQ Group
 For recruitment purposes.
 
 Given:
