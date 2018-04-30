@@ -1,4 +1,4 @@
-package pl.impaq.entity;
+package pl.impaq.controller;
 
 public class LcdDisplay {
 }
